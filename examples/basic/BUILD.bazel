@@ -19,13 +19,13 @@ markdown_fragment(
 # deep link; materialize into the tree (GUIDE.md) with a drift gate.
 markdown_document(
     name = "guide",
-    out = "GUIDE.md",
-    template = "README.md.tmpl",
+    out = "generated/GUIDE.md",
     fragments = [
         ":intro",
         ":usage",
     ],
     link_check = True,
+    template = "README.md.tmpl",
     toc = True,
     write_to = "GUIDE.md",
 )
