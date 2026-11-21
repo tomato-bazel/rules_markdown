@@ -16,7 +16,7 @@ markdown_fragment(
 
 markdown_document(
     name = "doc",
-    out = "SLOTS.md",
+    out = "generated/SLOTS.md",
     template = "tmpl.md",
     fragments = [
         ":a",
